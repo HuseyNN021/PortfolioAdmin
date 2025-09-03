@@ -25,13 +25,17 @@ document.addEventListener('DOMContentLoaded', function() {
         tr.classList.add('hover:bg-gray-50');
 
         tr.innerHTML = `
-          <td class="px-4 py-2 border">${icon}</td>
-          <td class="px-4 py-2 border">${title}</td>
-          <td class="px-4 py-2 border">${description}</td>
-          <td class="px-4 py-2 border">${imageName}</td>
-          <td class="px-4 py-2 border">
-            <button class="text-blue-500 hover:text-blue-700 mr-2 edit-btn">Edit</button>
-            <button class="text-red-500 hover:text-red-700 delete-btn"  style="background-color: red;color: wheat;padding: 0.5rem; border-radius: 0.5rem;">Delete</button>
+          <td class="px-4 py-2 text-center text-gray-700">${icon}</td>
+          <td class="px-4 py-2 text-center text-gray-700">${title}</td>
+          <td class="px-4 py-2 text-center text-gray-700">${description}</td>
+          <td class="px-4 py-2 text-center text-gray-700">${imageName}</td>
+          <td class="px-4 py-2 text-center text-gray-700">
+            <button class="font-bold  hover:text-blue-700 mr-2 px-3 py-1 rounded  edit-btn">
+              Edit
+            </button>
+            <button class="bg-red-600 text-white px-2 py-1 rounded hover:bg-red-800 hover:text-white delete-btn">
+              Delete
+            </button>
           </td>
         `;
 

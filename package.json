@@ -10,6 +10,7 @@
   "description": "",
   "dependencies": {
     "@tailwindcss/cli": "^4.1.12",
+    "@tailwindcss/forms": "^0.5.10",
     "tailwindcss": "^4.1.12"
   }
 }

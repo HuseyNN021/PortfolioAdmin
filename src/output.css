@@ -170,7 +170,7 @@
     letter-spacing: inherit;
     color: inherit;
     border-radius: 0;
-    background-color: transparent;
+    /* background-color: transparent; */
     opacity: 1;
   }
   :where(select:is([multiple], [size])) optgroup {
